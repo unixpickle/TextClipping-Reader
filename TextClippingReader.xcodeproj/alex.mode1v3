@@ -326,13 +326,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA6C9EBD127CC3A600B966B7</string>
+										<string>FA96D534127CC47200E61272</string>
 										<key>history</key>
 										<array>
 											<string>FA6C9E5E127CBD2100B966B7</string>
 											<string>FA6C9E71127CBE7B00B966B7</string>
 											<string>FA6C9EAD127CC32900B966B7</string>
-											<string>FA6C9EAE127CC32900B966B7</string>
+											<string>FA6C9EBD127CC3A600B966B7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {580, 269}}</string>
 								<key>RubberWindowFrame</key>
 								<string>850 312 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>269pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 274}, {580, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>850 312 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>189pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA6C9E2E127CB86700B966B7</string>
+				<string>FA96D535127CC47200E61272</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA6C9E2F127CB86700B966B7</string>
+				<string>FA96D536127CC47200E61272</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,12 +530,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FA6C9E31127CB86700B966B7</string>
-		<string>FA6C9E32127CB86700B966B7</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA6C9E10127CB70500B966B7</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/alex/Desktop/TextClippingReader/TextClippingReader.xcodeproj</string>
+		<string>/Users/alex/xCode/git/TextClippingReader/TextClippingReader.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>850 312 788 504 0 0 1920 1058 </string>
@@ -615,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA6C9E10127CB70500B966B7</string>
-				<string>FA6C9E11127CB70500B966B7</string>
+				<string>FA96D537127CC47200E61272</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

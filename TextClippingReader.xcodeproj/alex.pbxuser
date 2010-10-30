@@ -21,7 +21,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -36,15 +36,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310163104;
-			PBXWorkspaceStateSaveDate = 310163104;
+			PBXPerProjectTemplateStateSaveDate = 310166641;
+			PBXWorkspaceStateSaveDate = 310166641;
 		};
 		perUserProjectItems = {
-			FA6C9E5E127CBD2100B966B7 /* PBXTextBookmark */ = FA6C9E5E127CBD2100B966B7 /* PBXTextBookmark */;
-			FA6C9E71127CBE7B00B966B7 /* PBXTextBookmark */ = FA6C9E71127CBE7B00B966B7 /* PBXTextBookmark */;
-			FA6C9EAD127CC32900B966B7 /* PBXTextBookmark */ = FA6C9EAD127CC32900B966B7 /* PBXTextBookmark */;
-			FA6C9EAE127CC32900B966B7 /* PBXTextBookmark */ = FA6C9EAE127CC32900B966B7 /* PBXTextBookmark */;
-			FA6C9EBD127CC3A600B966B7 /* PBXTextBookmark */ = FA6C9EBD127CC3A600B966B7 /* PBXTextBookmark */;
+			FA6C9E5E127CBD2100B966B7 = FA6C9E5E127CBD2100B966B7 /* PBXTextBookmark */;
+			FA6C9E71127CBE7B00B966B7 = FA6C9E71127CBE7B00B966B7 /* PBXTextBookmark */;
+			FA6C9EAD127CC32900B966B7 = FA6C9EAD127CC32900B966B7 /* PBXTextBookmark */;
+			FA6C9EAE127CC32900B966B7 = FA6C9EAE127CC32900B966B7 /* PBXTextBookmark */;
+			FA6C9EBD127CC3A600B966B7 = FA6C9EBD127CC3A600B966B7 /* PBXTextBookmark */;
+			FA96D534127CC47200E61272 /* PBXTextBookmark */ = FA96D534127CC47200E61272 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FA6C9E0A127CB6BC00B966B7 /* Source Control */;
 		userBuildSettings = {
@@ -52,9 +53,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* TextClippingReader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {720, 1260}}";
+			sepNavIntBoundsRect = "{{0, 0}, {720, 1232}}";
 			sepNavSelRange = "{1909, 0}";
-			sepNavVisRange = "{1776, 550}";
+			sepNavVisRange = "{1776, 521}";
 		};
 	};
 	8DD76F960486AA7600D96B5E /* TextClippingReader */ = {
@@ -178,6 +179,16 @@
 		rLoc = 1909;
 		rType = 0;
 		vrLen = 550;
+		vrLoc = 1776;
+	};
+	FA96D534127CC47200E61272 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* TextClippingReader.m */;
+		name = "TextClippingReader.m: 74";
+		rLen = 0;
+		rLoc = 1909;
+		rType = 0;
+		vrLen = 521;
 		vrLoc = 1776;
 	};
 }

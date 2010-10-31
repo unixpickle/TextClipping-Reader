@@ -1,0 +1,9 @@
+This is a command line application that reads a text clipping file in mac OS X.
+
+You can also use these following flags along with the file:
+-v			Verbose
+--plain		Plain text
+
+In the future I may add support for more types of text, if I can find any.  For now this depends on the textClipping containing either plain text, or rtf.  The --plain option just reads the plain text part of the clipping.
+
+NOTE: Despite the copyright, you can copy this, and use it in any way you want.

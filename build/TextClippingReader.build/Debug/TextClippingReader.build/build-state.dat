@@ -1,176 +1,0 @@
-TTextClippingReader
-v7
-r0
-t310166383.441359
-cCheck dependencies
-cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch.gch TextClippingReader_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.o /Users/alex/Desktop/TextClippingReader/TextClippingReader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/ResourceForkManager.o /Users/alex/Desktop/TextClippingReader/ResourceForkManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingNode.o /Users/alex/Desktop/TextClippingReader/TextClippingNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/alex/Desktop/TextClippingReader/build/Debug/TextClippingReader normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004BF4701900000000000000EE
-t1274310681
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004BF4700E0000000000003A54
-t1274310670
-s14932
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c000000004B4834EA00000000000005FF
-t1263023338
-s1535
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B90FBB700000000000013E6
-t1267792823
-s5094
-
-N/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C11730A0000000000B37440
-t1276211978
-s11760704
-
-N/Users/alex/Desktop/TextClippingReader/ResourceForkManager.h
-c000000004CCC610000000000000001C8
-t1288462592
-s456
-i<Cocoa/Cocoa.h>
-i<Carbon/Carbon.h>
-
-N/Users/alex/Desktop/TextClippingReader/ResourceForkManager.m
-c000000004CCC61450000000000000965
-t1288462661
-s2405
-i"ResourceForkManager.h"
-
-N/Users/alex/Desktop/TextClippingReader/TextClippingNode.h
-c000000004CCC831A0000000000000111
-t1288471322
-s273
-i<Cocoa/Cocoa.h>
-
-N/Users/alex/Desktop/TextClippingReader/TextClippingNode.m
-c000000004CCC8A7400000000000003E6
-t1288473204
-s998
-i"TextClippingNode.h"
-
-N/Users/alex/Desktop/TextClippingReader/TextClippingReader.m
-c000000004CCC8C040000000000000918
-t1288473604
-s2328
-i<Foundation/Foundation.h>
-i"ResourceForkManager.h"
-i"TextClippingNode.h"
-
-N/Users/alex/Desktop/TextClippingReader/TextClippingReader_Prefix.pch
-c000000004CCC7F2000000000000000B2
-t1288470304
-s178
-i<Foundation/Foundation.h>
-
-N/Users/alex/Desktop/TextClippingReader/build/Debug/TextClippingReader
-t1288473583
-s22360
-
-N/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/ResourceForkManager.o
-t1288470402
-s18452
-
-N/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingNode.o
-t1288473206
-s9412
-
-N/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.LinkFileList
-c000000004CCC844E00000000000001AF
-t1288471630
-s431
-
-N/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.o
-t1288473583
-s14160
-
-N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch.gch
-t1288470402
-s41401104
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies310166382#310166382#0(0"0(0#1#0"8624843392#0"0#
-
-CCompileC build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/ResourceForkManager.o /Users/alex/Desktop/TextClippingReader/ResourceForkManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s310163202.491936
-e310163202.979269
-r1
-xCompileC
-xbuild/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/ResourceForkManager.o
-x/Users/alex/Desktop/TextClippingReader/ResourceForkManager.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/alex/Desktop/TextClippingReader/ResourceForkManager.m310163202#310163202#0(0"0(0#0#60"/Users/alex/Desktop/TextClippingReader/ResourceForkManager.m8614051424#1700"    cd /Users/alex/Desktop/TextClippingReader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-generated-files.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-own-target-headers.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-all-target-headers.hmap -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-project-headers.hmap -F/Users/alex/Desktop/TextClippingReader/build/Debug -I/Users/alex/Desktop/TextClippingReader/build/Debug/include -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources/x86_64 -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch -c /Users/alex/Desktop/TextClippingReader/ResourceForkManager.m -o /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/ResourceForkManager.o0#
-
-CCompileC build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingNode.o /Users/alex/Desktop/TextClippingReader/TextClippingNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s310166006.341264
-e310166006.914825
-r1
-xCompileC
-xbuild/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingNode.o
-x/Users/alex/Desktop/TextClippingReader/TextClippingNode.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/alex/Desktop/TextClippingReader/TextClippingNode.m: In function '+[TextClippingNode nodesFromData:]':
-o/Users/alex/Desktop/TextClippingReader/TextClippingNode.m:19: warning: dereferencing 'void *' pointer
-lSLF07#2@65"Compile /Users/alex/Desktop/TextClippingReader/TextClippingNode.m310166006#310166006#0(211"/Users/alex/Desktop/TextClippingReader/TextClippingNode.m: In function '+[TextClippingNode nodesFromData:]':/Users/alex/Desktop/TextClippingReader/TextClippingNode.m:19: warning: dereferencing 'void *' pointer1(22@30"Dereferencing 'void *' pointer310166006#109#102#0(6@57"/Users/alex/Desktop/TextClippingReader/TextClippingNode.m310166004#19#0#19#0#0"0(0#0#57"/Users/alex/Desktop/TextClippingReader/TextClippingNode.m8625000352#1694"    cd /Users/alex/Desktop/TextClippingReader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-generated-files.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-own-target-headers.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-all-target-headers.hmap -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-project-headers.hmap -F/Users/alex/Desktop/TextClippingReader/build/Debug -I/Users/alex/Desktop/TextClippingReader/build/Debug/include -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources/x86_64 -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch -c /Users/alex/Desktop/TextClippingReader/TextClippingNode.m -o /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingNode.o0#
-
-CCompileC build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.o /Users/alex/Desktop/TextClippingReader/TextClippingReader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s310166382.862034
-e310166383.409731
-r1
-xCompileC
-xbuild/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.o
-x/Users/alex/Desktop/TextClippingReader/TextClippingReader.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/alex/Desktop/TextClippingReader/TextClippingReader.m: In function 'main':
-o/Users/alex/Desktop/TextClippingReader/TextClippingReader.m:27: warning: initialization discards qualifiers from pointer target type
-o/Users/alex/Desktop/TextClippingReader/TextClippingReader.m:79: warning: format '%d' expects type 'int', but argument 3 has type 'NSUInteger'
-lSLF07#2@67"Compile /Users/alex/Desktop/TextClippingReader/TextClippingReader.m310166382#310166383#0(356"/Users/alex/Desktop/TextClippingReader/TextClippingReader.m: In function 'main':/Users/alex/Desktop/TextClippingReader/TextClippingReader.m:27: warning: initialization discards qualifiers from pointer target type/Users/alex/Desktop/TextClippingReader/TextClippingReader.m:79: warning: format '%d' expects type 'int', but argument 3 has type 'NSUInteger'2(22@59"Initialization discards qualifiers from pointer target type310166383#81#133#0(6@59"/Users/alex/Desktop/TextClippingReader/TextClippingReader.m310166382#27#0#27#0#0"0(22@68"Format '%d' expects type 'int', but argument 3 has type 'NSUInteger'310166383#214#142#0(6@59"/Users/alex/Desktop/TextClippingReader/TextClippingReader.m310166382#79#0#79#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#59"/Users/alex/Desktop/TextClippingReader/TextClippingReader.m8618155616#1698"    cd /Users/alex/Desktop/TextClippingReader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-generated-files.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-own-target-headers.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-all-target-headers.hmap -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-project-headers.hmap -F/Users/alex/Desktop/TextClippingReader/build/Debug -I/Users/alex/Desktop/TextClippingReader/build/Debug/include -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources/x86_64 -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch -c /Users/alex/Desktop/TextClippingReader/TextClippingReader.m -o /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.o0#
-
-CLd /Users/alex/Desktop/TextClippingReader/build/Debug/TextClippingReader normal x86_64
-s310166383.409816
-e310166383.441312
-r1
-xLd
-x/Users/alex/Desktop/TextClippingReader/build/Debug/TextClippingReader
-xnormal
-xx86_64
-lSLF07#2@74"Link /Users/alex/Desktop/TextClippingReader/build/Debug/TextClippingReader310166383#310166383#0(0"0(0#0#0"8608386016#582"    cd /Users/alex/Desktop/TextClippingReader    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/TextClippingReader/build/Debug -F/Users/alex/Desktop/TextClippingReader/build/Debug -filelist /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/Objects-normal/x86_64/TextClippingReader.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework Carbon -o /Users/alex/Desktop/TextClippingReader/build/Debug/TextClippingReader0#
-
-CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch.gch TextClippingReader_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s310163200.201801
-e310163202.489800
-r1
-xProcessPCH
-x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch.gch
-xTextClippingReader_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Precompile TextClippingReader_Prefix.pch310163200#310163202#0(0"0(0#0#68"/Users/alex/Desktop/TextClippingReader/TextClippingReader_Prefix.pch8613410304#1565"    cd /Users/alex/Desktop/TextClippingReader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-generated-files.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-own-target-headers.hmap -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-all-target-headers.hmap -iquote /Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/TextClippingReader-project-headers.hmap -F/Users/alex/Desktop/TextClippingReader/build/Debug -I/Users/alex/Desktop/TextClippingReader/build/Debug/include -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources/x86_64 -I/Users/alex/Desktop/TextClippingReader/build/TextClippingReader.build/Debug/TextClippingReader.build/DerivedSources -c /Users/alex/Desktop/TextClippingReader/TextClippingReader_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextClippingReader_Prefix-fkhqitdntuiekzckjcktvnuoihft/TextClippingReader_Prefix.pch.gch0#
-

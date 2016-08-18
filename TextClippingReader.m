@@ -24,7 +24,7 @@ int main (int argc, const char * argv[]) {
 		return 0;
 	}
 	
-	char * fname = argv[argc - 1];
+	const char * fname = argv[argc - 1];
 	NSString * nname = [[NSString alloc] initWithFormat:@"%s", fname];
 	
 	ResourceForkManager * man = [[ResourceForkManager alloc] init];
@@ -38,7 +38,7 @@ int main (int argc, const char * argv[]) {
 	if (vbose) {
 		printf(" LOG: Read %d blocks from file.\n", (int)[blocks count]);
 	}
-	
+
 	if ([blocks count] == 9) {
 		// assume its RTF
 		if (vbose) {
@@ -66,7 +66,25 @@ int main (int argc, const char * argv[]) {
 				if (isascii(c)) printf("%c", c);
 			}
 		}
-
+	} else if ([blocks count] == 10) {
+		if (vbose) {
+			printf(" LOG: Detected RTF based on block count.\n");
+		}
+		if (plain) {
+			if (vbose) {
+				printf(" LOG: Reading plain text from 5th block (UTF-16).\n");
+			}
+			NSData *txt = blocks[2];
+			NSString *s = [[NSString alloc] initWithData:txt encoding:NSUTF16BigEndianStringEncoding];
+			printf("%s", s.UTF8String);
+			[s release];
+		} else {
+			if (vbose) {
+				printf(" LOG: Reading RTF data from 5th block.\n");
+			}
+			NSData *rtf = blocks[4];
+			fwrite(rtf.bytes, 1, rtf.length, stdout);
+		}
 	} else if ([blocks count] == 5) {
 		// assume its text
 		// the text should be the third block
@@ -76,13 +94,13 @@ int main (int argc, const char * argv[]) {
 		NSData * text = [blocks objectAtIndex:2];
 		printf("%s\n", [[[[NSString alloc] initWithData:text encoding:NSUTF8StringEncoding] autorelease] UTF8String]);
 	} else {
-		fprintf(stderr, "Unknown format.  It was not rtf or txt and it has %d blocks.\n", [blocks count]);
+		fprintf(stderr, "Unknown format.  It was not rtf or txt and it has %lu blocks.\n", [blocks count]);
+		if (vbose) {
+			NSLog(@"%@", blocks);
+		}
 		return 1;
 	}
-	
-    // insert code here...
-    //NSLog(@"Hello, World!");
-    
+
 	[pool drain];
     return 0;
 }
